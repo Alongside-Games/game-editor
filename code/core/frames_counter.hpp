@@ -16,8 +16,8 @@ namespace core
 
     private:
         inline static int32_t _frames   { };
-                      int32_t _counter  { };
+                      int32_t  counter  { };
 
-        time_point _current_time { };
+        time_point current_time { };
     };
 }
